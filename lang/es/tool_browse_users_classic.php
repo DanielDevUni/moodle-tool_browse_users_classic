@@ -22,7 +22,7 @@
  * @author     Daniel Cárdenas Ortiz <daniel.cardenas.ortiz@correounivalle.edu.co>
  * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-$string['pluginname'] = 'Explorar lista de usuarios (modo clásico)';
+$string['pluginname'] = 'Examinar lista de usuarios (modo clásico)';
 $string['privacy:metadata'] = 'El plugin Explorar lista de usuarios solo muestra datos de usuario ya existentes.';
 $string['viewprofileafteredit'] = 'Ver perfil después de editar usuario';
 $string['viewprofileafteredit_desc'] = 'Si está activado, después de editar un usuario serás redirigido a la página de perfil del usuario en lugar de volver a la (nueva) lista de usuarios.';
