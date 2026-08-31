@@ -406,9 +406,7 @@ if (!$users) {
     foreach ($extracolumns as $field) {
         $table->head[] = ${$field};
     }
-    // Disable city and country in the table
-    //$table->head[] = $city;
-    //$table->head[] = $country;
+    $table->head[] = $city;
     $table->head[] = $lastaccess;
     $table->head[] = get_string('edit');
     $table->colclasses[] = 'centeralign';
@@ -512,9 +510,7 @@ if (!$users) {
         foreach ($extracolumns as $field) {
             $row[] = s($user->{$field});
         }
-        // Disable city and country in the table
-        //$row[] = $user->city;
-        //$row[] = $user->country;
+        $row[] = $user->city;
         $row[] = $strlastaccess;
         if ($user->suspended) {
             foreach ($row as $k => $v) {
